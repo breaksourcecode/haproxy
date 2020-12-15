@@ -15,5 +15,5 @@ an example for testing haproxy
 4. 配置HAProxy，即用下载的haproxy.conf文件覆盖/etc/haproxy/haproxy.conf文件
 5. 启动HAproxy
    systemctl start haproxy
-5. 测试，并观察返回的数据是否交替打印端口
+6. 测试，并观察返回的数据是否交替打印端口
    curl localhost:5000 或者  curl localhost:6000
